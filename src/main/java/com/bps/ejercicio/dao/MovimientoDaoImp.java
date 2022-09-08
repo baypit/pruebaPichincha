@@ -163,8 +163,6 @@ public class MovimientoDaoImp implements MovimientoDao {
 	
 	public Double validarSaldo(Movimiento movimiento, Double saldoAnterior) {
 		
-		//Movimiento movimientoAnt = getMovimientoActual(movimiento.getNumeroCuenta());
-		
 		if(movimiento.getTipoMovimiento().equals("Debito")) {
 			return saldoAnterior - movimiento.getValor();
 			

@@ -14,16 +14,5 @@ public interface ClienteDao {
     
     void registrar(Cliente cliente) throws Exception ;
     
-    //List<Cliente> getClientes();
-
-  // void registrar(Persona producto) ;
-
-//   void editar(Persona producto);
-   
-  // Persona obtenerPersonaPorID(Integer id);
-   
-   //void deletePersonaId(Integer id);
-   
-  
 
 }
